@@ -51,7 +51,7 @@ if &t_Co > 255
     " complete menu
     hi Pmenu           ctermfg=81   ctermbg=16   cterm=none
     hi PmenuSel        ctermfg=none ctermbg=244  cterm=none
-    hi PmenuSbar       ctermfg=none ctermbg=232  cterm=none
+    hi PmenuSbar       ctermfg=none ctermbg=233  cterm=none
     hi PmenuThumb      ctermfg=81   ctermbg=none cterm=none
 
     hi PreCondit       ctermfg=196  ctermbg=none cterm=bold
@@ -60,10 +60,10 @@ if &t_Co > 255
     hi Repeat          ctermfg=63   ctermbg=none cterm=none
     hi Search          ctermfg=231  ctermbg=239  cterm=none
 
-    hi SignColumn      ctermfg=none ctermbg=232  cterm=none
+    hi SignColumn      ctermfg=none ctermbg=233  cterm=none
     hi SpecialChar     ctermfg=63   ctermbg=none cterm=bold
     hi SpecialComment  ctermfg=34   ctermbg=none cterm=bold
-    hi Special         ctermfg=81   ctermbg=232  cterm=none
+    hi Special         ctermfg=81   ctermbg=233  cterm=none
     hi SpecialKey      ctermfg=102  ctermbg=none cterm=none
 
     if has("spell")
@@ -74,30 +74,30 @@ if &t_Co > 255
     endif
 
     hi Statement       ctermfg=63   ctermbg=none cterm=none
-    hi StatusLine      ctermfg=239  ctermbg=253  cterm=none
-    hi StatusLineNC    ctermfg=244  ctermbg=232  cterm=none
+    hi StatusLine      ctermfg=239  ctermbg=233  cterm=none
+    hi StatusLineNC    ctermfg=244  ctermbg=233  cterm=none
     hi StorageClass    ctermfg=106  ctermbg=none cterm=none
     hi Structure       ctermfg=129  ctermbg=none cterm=none
     hi Tag             ctermfg=63   ctermbg=none cterm=none
     hi Title           ctermfg=231  ctermbg=none cterm=none
-    hi Todo            ctermfg=231  ctermbg=232  cterm=bold
+    hi Todo            ctermfg=231  ctermbg=233  cterm=bold
 
     hi Typedef         ctermfg=129  ctermbg=none cterm=none
     hi Type            ctermfg=129  ctermbg=none cterm=none
     hi Underlined      ctermfg=244  ctermbg=none cterm=none
 
-    hi VertSplit       ctermfg=244  ctermbg=232  cterm=none
+    hi VertSplit       ctermfg=244  ctermbg=233  cterm=none
     hi VisualNOS       ctermfg=none ctermbg=237  cterm=none
     hi Visual          ctermfg=none ctermbg=237  cterm=none
     hi WarningMsg      ctermfg=231  ctermbg=236  cterm=bold
     hi WildMenu        ctermfg=81   ctermbg=16   cterm=none
 
-    hi Normal          ctermfg=255  ctermbg=232  cterm=none
+    hi Normal          ctermfg=255  ctermbg=233  cterm=none
     hi Comment         ctermfg=244  ctermbg=none cterm=none
     hi CursorLine      ctermfg=none ctermbg=234  cterm=none
     hi CursorColumn    ctermfg=none ctermbg=236  cterm=none
-    hi LineNr          ctermfg=238  ctermbg=232  cterm=none
-    hi NonText         ctermfg=250  ctermbg=232  cterm=none
+    hi LineNr          ctermfg=238  ctermbg=233  cterm=none
+    hi NonText         ctermfg=250  ctermbg=233  cterm=none
 else
     "
     " Gvim colors
