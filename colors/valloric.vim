@@ -97,7 +97,7 @@ if &t_Co > 255
     hi CursorLine      ctermfg=none ctermbg=234  cterm=none
     hi CursorColumn    ctermfg=none ctermbg=236  cterm=none
     hi LineNr          ctermfg=238  ctermbg=234  cterm=none
-    hi NonText         ctermfg=250  ctermbg=234  cterm=none
+    hi NonText         ctermfg=234  ctermbg=234  cterm=none
 else
     "
     " Gvim colors
