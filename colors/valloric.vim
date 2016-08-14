@@ -87,8 +87,8 @@ if &t_Co > 255
     hi Underlined      ctermfg=244  ctermbg=none cterm=none
 
     hi VertSplit       ctermfg=244  ctermbg=236  cterm=none
-    hi VisualNOS       ctermfg=none ctermbg=237  cterm=none
-    hi Visual          ctermfg=none ctermbg=237  cterm=none
+    hi VisualNOS       ctermfg=none ctermbg=238  cterm=none
+    hi Visual          ctermfg=none ctermbg=238  cterm=none
     hi WarningMsg      ctermfg=231  ctermbg=236  cterm=bold
     hi WildMenu        ctermfg=81   ctermbg=16   cterm=none
 
